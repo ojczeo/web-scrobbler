@@ -1120,5 +1120,10 @@ define(function() {
 		label: 'Gimme Radio',
 		matches: ['*://gimmeradio.com/*', '*://www.gimmeradio.com/*'],
 		js: ['connectors/gimmeradio.js']
+	},
+	{
+		label: 'Idagio',
+		matches: ['*://idagio.com/*', '*://www.idagio.com/*'],
+		js: ['connectors/idagio.js']
 	}];
 });
